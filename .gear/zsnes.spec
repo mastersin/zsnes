@@ -8,16 +8,12 @@ Group: Amusements/Games
 License: GPLv2
 URL: https://github.com/xyproto/zsnes
 Source0: %name-%version.tar
-BuildArch: x86_64
+BuildArch: i586
 
 BuildRequires: libSDL-devel
 BuildRequires: libpng-devel
 BuildRequires: nasm
 BuildRequires: gcc-c++
-BuildRequires: i586-libSDL-devel
-BuildRequires: i586-zlib-devel
-BuildRequires: i586-libglpng-devel
-BuildRequires: i586-gcc10
 
 %description
 ZSNES is Super Nintendo emulator. It works with 64-bit x86
